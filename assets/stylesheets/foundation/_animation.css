@@ -1,0 +1,33 @@
+.fadeIn{
+    opacity: 0;
+    transition: 2s;
+}
+.fadeIn.is-inview{
+    opacity: 1;
+}
+.fadeIn_delay_1000ms{
+    opacity: 0;
+    transition: 2s;
+    transition-delay: 1000ms;
+}
+.fadeIn_delay_1000ms.is-inview{
+    opacity: 1;
+}
+.fadeIn_left{
+    opacity: 0;
+    transition: 2s;
+    transform: translateX(-30px);
+}
+.fadeIn_left.is-inview{
+    opacity: 1;
+    transform: translateX(0);
+}
+.fadeIn_right{
+    opacity: 0;
+    transition: 2s;
+    transform: translateX(30px);
+}
+.fadeIn_right.is-inview{
+    opacity: 1;
+    transform: translateX(0);
+}

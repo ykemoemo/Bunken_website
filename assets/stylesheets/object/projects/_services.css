@@ -1,0 +1,143 @@
+/* pc design */
+@media screen and (min-width: 900px){
+    /* Services */
+    .c-main__services--bgImg{
+        background-image: url("../../../images/bunken_services_bg_iStock.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 70vh;
+        position: relative;
+        z-index: -2;
+    }
+    .c-main__services--bgImg::before{
+        background-color: rgba(0,0,0,0.6);
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        content: ' ';
+        z-index: -1;
+    }
+    .p-main__services-inner{
+        text-align: center;
+        color: white;
+        font-weight: 300;
+        width: 80%;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+    }
+    .c-main__services--title{
+        font-family: 'Hiragino Mincho Pro';
+        font-size: 30px;
+        line-height: 45px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .c-main__services--text{
+        font-size: 16px;
+        line-height: 200%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .c-main__services-imgs{
+        display: flex;
+    }
+    .c-main__services--img{
+        width: 100%;
+        padding-bottom: 20%;
+        background-position: center;
+        background-size: cover;
+    }
+    .c-main__services--img:nth-child(1){
+        background-image: url("../../../images/bunken_services_1_iStock.jpg");
+    }
+    .c-main__services--img:nth-child(2){
+        background-image: url("../../../images/bunken_services_2_iStock.jpg");
+    }
+    .c-main__services--img:nth-child(3){
+        background-image: url("../../../images/bunken_services_3_iStock.jpg");
+    }
+    .c-main__services--img:nth-child(4){
+        background-image: url("../../../images/bunken_services_4_iStock.jpg");
+    }
+    .c-main__services--img:nth-child(5){
+        background-image: url("../../../images/bunken_services_5_iStock.jpg");
+    }
+}
+
+/* sp design */
+@media screen and (max-width: 899px){
+    /* Services */
+    .p-main__services{
+        margin-bottom: 50px;
+    }
+    .c-main__services--bgImg{
+        background-image: url("../../../images/bunken_services_bg_iStock.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 70vh;
+        position: relative;
+    }
+    .c-main__services--bgImg::before{
+        background-color: rgba(0,0,0,0.6);
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        content: ' ';
+    }
+    .p-main__services-inner{
+        text-align: center;
+        color: white;
+        font-weight: 300;
+        width: 90%;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+    }
+    .c-main__services--title{
+        font-family: 'Hiragino Mincho Pro';
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 35px;
+        margin-bottom: 14px;
+    }
+    .c-main__services--text{
+        font-size: 12px;
+        line-height: 200%;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .c-main__services-imgs{
+        display: flex;
+    }
+    .c-main__services--img{
+        width: 100%;
+        padding-bottom: 33.333%;
+        background-position: center;
+        background-size: cover;
+    }
+    .c-main__services--img:nth-child(1){
+        background-image: url("../../../images/bunken_services_1_iStock.jpg");
+    }
+    .c-main__services--img:nth-child(2){
+        background-image: url("../../../images/bunken_services_2_iStock.jpg");
+    }
+    .c-main__services--img:nth-child(3){
+        background-image: url("../../../images/bunken_services_3_iStock.jpg");
+    }
+    .c-main__services--img:nth-child(4){
+        display: none;
+    }
+    .c-main__services--img:nth-child(5){
+        display: none;
+    }
+}

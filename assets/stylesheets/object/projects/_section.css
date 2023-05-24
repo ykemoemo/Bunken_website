@@ -1,0 +1,103 @@
+/* pc design */
+@media screen and (min-width: 900px){
+    /* section */
+    .c-main__section{
+        font-style: normal;
+        color: white;
+        width:fit-content;
+        margin:0 auto;
+    }
+    .c-main__section--title{
+        font-family: 'Hiragino Kaku Gothic Pro';
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 72px;
+        letter-spacing: 0.1em;
+    }
+    .c-main__section--title span{
+        color: #A6BD66;
+    }
+    .c-main__section--text{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+	    align-items: center;
+    }
+    .c-main__section--text:before,
+    .c-main__section--text:after {
+        content: "";
+        flex-grow: 1;
+        height: 1px;
+        background: white;
+        margin:0 0.4em;
+    }
+    .p-main__works-inner > .c-main__section,
+    .p-main__recruit-inner > .c-main__section,
+    .p-main__contact-inner > .c-main__section{
+        color: black;
+    }
+    .p-main__works-inner > .c-main__section > .c-main__section--text:before,
+    .p-main__works-inner > .c-main__section > .c-main__section--text:after,
+    .p-main__recruit-inner > .c-main__section > .c-main__section--text:before,
+    .p-main__recruit-inner > .c-main__section > .c-main__section--text:after,
+    .p-main__contact-inner > .c-main__section > .c-main__section--text:before,
+    .p-main__contact-inner > .c-main__section > .c-main__section--text:after{
+        background:  black;
+    }
+    a.anchor{
+        display: block;
+        padding-top: 500px;
+        margin-top: -500px;
+    }
+}
+
+/* sp design */
+@media screen and (max-width: 899px){
+    /* section */
+    .c-main__section{
+        font-style: normal;
+        color: white;
+        width:fit-content;
+        margin:0 auto;
+    }
+    .c-main__section--title{
+        font-family: 'Hiragino Kaku Gothic Pro';
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+        letter-spacing: 0.05em;
+    }
+    .c-main__section--title span{
+        color: #ABD766;
+    }
+    .c-main__section--text{
+        font-family: 'Hiragino Sans';
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+    }
+    .c-main__section--text:before,
+    .c-main__section--text:after {
+        content: "";
+        flex-grow: 1;
+        height: 1px;
+        background: white;
+        margin:0 0.4em;
+    }
+    .p-main__works-inner > .c-main__section,
+    .p-main__recruit-inner > .c-main__section,
+    .p-main__contact-inner > .c-main__section{
+        color: black;
+    }
+    .p-main__works-inner > .c-main__section > .c-main__section--text:before,
+    .p-main__works-inner > .c-main__section > .c-main__section--text:after,
+    .p-main__recruit-inner > .c-main__section > .c-main__section--text:before,
+    .p-main__recruit-inner > .c-main__section > .c-main__section--text:after,
+    .p-main__contact-inner > .c-main__section > .c-main__section--text:before,
+    .p-main__contact-inner > .c-main__section > .c-main__section--text:after{
+        background:  black;
+    }
+}

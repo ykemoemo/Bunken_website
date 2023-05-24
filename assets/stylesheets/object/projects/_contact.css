@@ -1,0 +1,91 @@
+/* pc design */
+@media screen and (min-width: 900px){
+    .p-main__contact{
+        background: rgba(233, 224, 142, 0.1);
+        padding-bottom: 100px;
+    }
+    .p-main__contact-inner{
+        padding-top: 100px;
+    }
+    .c-main__contact-forms{
+        width: 60%;
+        max-width: 750px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .c-main__contact-form{
+        margin-bottom: 35px;
+    }
+    .c-main__contact-form > label{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .c-main__contact-form > input,
+    .c-main__contact-form > textarea{
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
+    }
+    .c-main__contact-form > textarea{
+        height: 200px;
+    }
+    .c-main__contact-forms_submit{
+        display: block;
+        margin: 0 auto;
+        width: 95px;
+        height: 40px;
+        background: #A6BD66;
+        border-radius: 4px;
+        border: none;
+        color: white;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+/* sp design */
+@media screen and (max-width: 899px){
+    .p-main__contact{
+        background: rgba(233, 224, 142, 0.1);
+        padding-top: 30px;
+        padding-bottom: 35px;
+    }
+    .c-main__contact-forms{
+        width: 85%;
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .c-main__contact-form{
+        margin-bottom: 20px;
+    }
+    .c-main__contact-form > label{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .c-main__contact-form > input,
+    .c-main__contact-form > textarea{
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
+    }
+    .c-main__contact-form > textarea{
+        height: 200px;
+    }
+    .c-main__contact-forms_submit{
+        display: block;
+        margin: 0 auto;
+        width: 58px;
+        height: 27px;
+        background: #A6BD66;
+        border-radius: 4px;
+        border: none;
+        color: white;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
