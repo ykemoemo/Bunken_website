@@ -1,16 +1,16 @@
 /* pc design */
 @media screen and (min-width: 900px){
-    .p-main__recruit-inner{
+    .p-main__recruit__inner{
         padding-top: 100px;
     }
-    .c-main__recruit-texts{
+    .p-main__recruit__texts{
         width: 60%;
         max-width: 740px;
         margin: 0 auto;
         margin-top: 65px;
         margin-bottom: 110px;
     }
-    .c-main__recruit-texts_inner{
+    .p-main__recruit__texts__inner{
         font-weight: 400;
         font-size: 16px;
         line-height: 200%;
@@ -18,27 +18,27 @@
         width: 100%;
         margin-bottom: 15px;
     }
-    .c-main__recruit--text{
+    .p-main__recruit__texts__inner--text{
         width: 20%;
     }
-    .c-main__recruit-texts_inner > p:nth-child(2){
+    .p-main__recruit__texts__inner > p:nth-child(2){
         width: 80%;
     }
 }
 
 /* sp design */
 @media screen and (max-width: 899px){
-    .p-main__recruit-inner{
+    .p-main__recruit__inner{
         padding-top: 30px;
         margin-bottom: 50px;
     }
-    .c-main__recruit-texts{
+    .p-main__recruit__texts{
         width: 85%;
         max-width: 476px;
         margin: 0 auto;
         margin-top: 20px;
     }
-    .c-main__recruit-texts_inner{
+    .p-main__recruit__texts__inner{
         font-weight: 400;
         font-size: 12px;
         line-height: 150%;

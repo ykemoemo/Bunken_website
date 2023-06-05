@@ -4,33 +4,33 @@
         background: rgba(233, 224, 142, 0.1);
         padding-bottom: 100px;
     }
-    .p-main__contact-inner{
+    .p-main__contact__inner{
         padding-top: 100px;
     }
-    .c-main__contact-forms{
+    .c-form{
         width: 60%;
         max-width: 750px;
         margin: 0 auto;
         margin-top: 50px;
     }
-    .c-main__contact-form{
+    .c-form--label{
         margin-bottom: 35px;
     }
-    .c-main__contact-form > label{
+    .c-form--label > label{
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
     }
-    .c-main__contact-form > input,
-    .c-main__contact-form > textarea{
+    .c-form--label > input,
+    .c-form--label > textarea{
         width: 100%;
         border: 1px solid rgba(0, 0, 0, 0.3);
         border-radius: 4px;
     }
-    .c-main__contact-form > textarea{
+    .c-form--label > textarea{
         height: 200px;
     }
-    .c-main__contact-forms_submit{
+    .c-form--submit{
         display: block;
         margin: 0 auto;
         width: 95px;
@@ -52,30 +52,30 @@
         padding-top: 30px;
         padding-bottom: 35px;
     }
-    .c-main__contact-forms{
+    .c-form{
         width: 85%;
         max-width: 500px;
         margin: 0 auto;
         margin-top: 20px;
     }
-    .c-main__contact-form{
+    .c-form--label{
         margin-bottom: 20px;
     }
-    .c-main__contact-form > label{
+    .c-form--label > label{
         font-weight: 400;
         font-size: 12px;
         line-height: 15px;
     }
-    .c-main__contact-form > input,
-    .c-main__contact-form > textarea{
+    .c-form--label > input,
+    .c-form--label > textarea{
         width: 100%;
         border: 1px solid rgba(0, 0, 0, 0.3);
         border-radius: 4px;
     }
-    .c-main__contact-form > textarea{
+    .c-form--label > textarea{
         height: 200px;
     }
-    .c-main__contact-forms_submit{
+    .c-form--submit{
         display: block;
         margin: 0 auto;
         width: 58px;

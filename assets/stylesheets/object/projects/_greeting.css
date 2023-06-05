@@ -1,9 +1,9 @@
 /* pc design */
 @media screen and (min-width: 900px){
-    .p-main__greeting-inner{
+    .p-main__greeting__inner{
         margin-bottom: 150px;
     }
-    .c-main__greeting--bgImg{
+    .p-main__greeting__inner--bgImg{
         background-image: url("../../../images/bunken_greeting_bg_iStock.jpg");
         background-size: cover;
         background-position: center;
@@ -14,7 +14,7 @@
         z-index: -2;
         margin-bottom: 65px;
     }
-    .c-main__greeting--bgImg::before{
+    .p-main__greeting__inner--bgImg::before{
         background-color: rgba(0,0,0,0.3);
         position: absolute;
         top: 0;
@@ -24,7 +24,7 @@
         content: ' ';
         z-index: -1;
     }
-    .c-main__greeting--title{
+    .p-main__greeting--title{
         font-family: 'Hiragino Mincho Pro';
         font-weight: 400;
         font-size: 30px;
@@ -34,13 +34,13 @@
         margin: 0 auto;
         margin-bottom: 65px;
     }
-    .c-main__greeting-imgText{
+    .p-main__greeting__imgText{
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
         width: 70%;
     }
-    .c-main__greeting--img{
+    .p-main__greeting__imgText--img{
         background-image: url("../../../images/bunken_greeting_main.jpg");
         background-size: cover;
         background-position: center;
@@ -48,7 +48,7 @@
         padding-bottom: 30%;
         margin-right: 3%;
     }
-    .c-main__greeting--text{
+    .p-main__greeting__imgText--text{
         font-weight: 400;
         font-size: 16px;
         line-height: 200%;
@@ -61,10 +61,10 @@
 
 /* sp design */
 @media screen and (max-width: 899px){
-    .p-main__greeting-inner{
+    .p-main__greeting__inner{
         margin-bottom: 70px;
     }
-    .c-main__greeting--bgImg{
+    .p-main__greeting__inner--bgImg{
         background-image: url("../../../images/bunken_greeting_bg_iStock.jpg");
         background-size: cover;
         background-position: center;
@@ -75,7 +75,7 @@
         z-index: -2;
         margin-bottom: 30px;
     }
-    .c-main__greeting--bgImg::before{
+    .p-main__greeting__inner--bgImg::before{
         background-color: rgba(0,0,0,0.3);
         position: absolute;
         top: 0;
@@ -85,7 +85,7 @@
         content: ' ';
         z-index: -1;
     }
-    .c-main__greeting--title{
+    .p-main__greeting--title{
         font-family: 'Hiragino Mincho Pro';
         font-weight: 400;
         font-size: 20px;
@@ -96,10 +96,10 @@
         margin-bottom: 15px;
         max-width: 400px;
     }
-    .c-main__greeting-imgText{
+    .p-main__greeting__imgText{
         margin: 0 auto;
     }
-    .c-main__greeting--img{
+    .p-main__greeting__imgText--img{
         background-image: url("../../../images/bunken_greeting_main.jpg");
         background-size: cover;
         background-position: center;
@@ -108,7 +108,7 @@
         margin: 0 auto;
         margin-bottom: 15px;
     }
-    .c-main__greeting--text{
+    .p-main__greeting__imgText--text{
         font-weight: 400;
         font-size: 12px;
         line-height: 200%;

@@ -16,24 +16,24 @@
     justify-content: right;
     position: relative;
   }
-  .c-header__logo{
+  .p-header__logo{
     width: 15%;
     left: 7%;
     position: absolute;
     top: 0;
     transition: .5s;
   }
-  .c-header__logo.active{
+  .p-header__logo.active{
     width: 10%;
   }
-  .c-header__links{
+  .p-header__nav{
     display: flex;
     align-items: center;
   }
-  .c-header__link{
+  .p-header__nav--item{
     margin-right: 20px;
   }
-  .c-header__link:last-child{
+  .p-header__nav--item:last-child{
     background-color: #A6BD66;
     border: none;
     color: white;
@@ -41,7 +41,7 @@
     margin-right: 0;
     padding: 38px 20px;
   }
-  .c-header__link:last-child img{
+  .p-header__nav--item:last-child img{
     margin-right: 5px;
   }
 }
@@ -61,7 +61,7 @@
     height: 50px;
     position: relative;
   }
-  .c-header__logo{
+  .p-header__logo{
     width: 30%;
     max-width: 150px;
     min-width :80px;
@@ -71,10 +71,10 @@
     z-index: 99;
     transition: .5s;
   }
-  .c-header__logo.active{
+  .p-header__logo.active{
     width: 10%;
   }
-  .c-header__hero--hamburger{
+  .p-header__button__hamburger{
     background-color: #A6BD66;
     border: none;
     height: 50px;
@@ -84,13 +84,13 @@
     z-index: 101;
     cursor: pointer;
   }
-  .c-header__hero--hamburger_bar{
+  .p-header__button__hamburger__inner{
     height: 12px;
     position: relative;
     margin-bottom: 3px;
     margin-top: 8px;
   }
-  .c-header__hero--hamburger_bar span{
+  .p-header__button__hamburger__inner span{
     display: block;
     width: 20px;
     height: 1px;
@@ -100,37 +100,37 @@
     transform: translateX(-50%);
     transition: all .4s;
   }
-  .c-header__hero--hamburger_bar span:nth-of-type(1) {
+  .p-header__button__hamburger__inner span:nth-of-type(1) {
     top:0;
   }
-  .c-header__hero--hamburger_bar span:nth-of-type(2) {
+  .p-header__button__hamburger__inner span:nth-of-type(2) {
     top:50%;
   }
-  .c-header__hero--hamburger_bar span:nth-of-type(3) {
+  .p-header__button__hamburger__inner span:nth-of-type(3) {
     top:100%;
   }
-  .c-header__hero--hamburger p{
+  .p-header__button__hamburger p{
     font-size: 10px;
     transform: scale(0.7);
     -webkit-text-size-adjust: none;
     color: white;
   }
-  .c-header__hero--hamburger.active span:nth-of-type(1) {
+  .p-header__button__hamburger.active span:nth-of-type(1) {
     top: 5px;
     left: 50%;
     transform: translateX(-50%) rotate(-45deg);
     width: 20px;
   }
-  .c-header__hero--hamburger.active span:nth-of-type(2) {
+  .p-header__button__hamburger.active span:nth-of-type(2) {
     opacity: 0;
   }
-  .c-header__hero--hamburger.active span:nth-of-type(3){
+  .p-header__button__hamburger.active span:nth-of-type(3){
     top: 5px;
     left: 50%;
     transform: translateX(-50%) rotate(45deg);
     width: 20px;
   }
-  .c-header__hero--nav{
+  .p-header__button__nav{
     display: block;
     width: 100%;
     height: 100vh;
@@ -141,20 +141,20 @@
     padding-top: 50px;
     transition: .4s;
   }
-  .c-header__hero--nav.active{
+  .p-header__button__nav.active{
     display: block;
     left: 30%;
   }
-  .c-header__hero--navItem{
+  .p-header__button__nav__list--item{
     font-size: 14px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     position: relative;
   }
-  .c-header__hero--navItem a{
+  .p-header__button__nav__list--item a{
     display: block;
     padding: 16px 10%;
   }
-  .c-header__hero--navItem::after{
+  .p-header__button__nav__list--item::after{
     content: "";
     right: 40%;
     top: 50%;
@@ -191,7 +191,7 @@
   .slide.active {
     left: -70%;
   }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
-  .c-header__sp-bottom {
+  .c-header__sp__bottom {
     position: fixed;
     bottom: 0;
     display: flex;
@@ -203,16 +203,16 @@
     width: 100%;
     height: 50px;
   }
-  .c-header__sp-bottom--link {
+  .c-header__sp__bottom--link {
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .c-header__sp-bottom--link img {
+  .c-header__sp__bottom--link img {
     margin-right: 5px;
   }
-  .c-header__sp-bottom--border {
+  .c-header__sp__bottom--border {
     border: 0.5px solid white;
     height: 50px;
   }
