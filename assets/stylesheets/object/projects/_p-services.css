@@ -1,7 +1,7 @@
 /* pc design */
 @media screen and (min-width: 900px){
     /* Services */
-    .p-main__services--bgImg{
+    .p-main__services__bgImg{
         background-image: url("../../../images/bunken_services_bg_iStock.jpg");
         background-size: cover;
         background-position: center;
@@ -10,7 +10,7 @@
         position: relative;
         z-index: -2;
     }
-    .p-main__services--bgImg::before{
+    .p-main__services__bgImg::before{
         background-color: rgba(0,0,0,0.6);
         position: absolute;
         top: 0;
@@ -76,7 +76,7 @@
     .p-main__services{
         margin-bottom: 50px;
     }
-    .p-main__services--bgImg{
+    .p-main__services__bgImg{
         background-image: url("../../../images/bunken_services_bg_iStock.jpg");
         background-size: cover;
         background-position: center;
@@ -84,7 +84,7 @@
         height: 70vh;
         position: relative;
     }
-    .p-main__services--bgImg::before{
+    .p-main__services__bgImg::before{
         background-color: rgba(0,0,0,0.6);
         position: absolute;
         top: 0;
