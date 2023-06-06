@@ -10,7 +10,7 @@
         margin-top: 65px;
         margin-bottom: 110px;
     }
-    .p-main__recruit__texts__inner{
+    .p-main__recruit__text{
         font-weight: 400;
         font-size: 16px;
         line-height: 200%;
@@ -18,10 +18,10 @@
         width: 100%;
         margin-bottom: 15px;
     }
-    .p-main__recruit__texts__inner--text{
+    .p-main__recruit__text p:first-child{
         width: 20%;
     }
-    .p-main__recruit__texts__inner > p:nth-child(2){
+    .p-main__recruit__text p:last-child{
         width: 80%;
     }
 }
@@ -38,7 +38,7 @@
         margin: 0 auto;
         margin-top: 20px;
     }
-    .p-main__recruit__texts__inner{
+    .p-main__recruit__text{
         font-weight: 400;
         font-size: 12px;
         line-height: 150%;

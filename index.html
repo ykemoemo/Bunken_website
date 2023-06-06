@@ -14,60 +14,33 @@
 </head>
 <body>
   <div class="overlay" id="js-overlay"></div>
+
   <!-- header -->
   <header>
     <div class="l-header">
       <div class="l-header__inner">
-        <!-- pc style -->
-        <div class="p-header__pc" id="js-header">
+        <div class="p-header" id="js-header">
           <a href="#top"><img class="p-header__logo fadeIn_delay_1000ms" src="assets/images/bunken_rogo.png" alt="文建株式会社ロゴ"></a>
-          <nav class="p-header__nav">
-            <a class="p-header__nav--item" href="#top">TOP</a>
-            <a class="p-header__nav--item" href="#services">事業内容</a>
-            <a class="p-header__nav--item" href="#works">施工事例</a>
-            <a class="p-header__nav--item" href="#greeting">代表挨拶</a>
-            <a class="p-header__nav--item" href="#company">会社情報</a>
-            <a class="p-header__nav--item" href="#recruit">採用情報</a>
-            <a class="p-header__nav--item" href="#contact">
-              <img src="assets/images/bunken_header_icon_mail.png" alt="メールアイコン" width="20px">
-              <p>お問い合わせ</p>
-            </a>
-          </nav>
-        </div>
-        <!-- sp style -->
-        <div class="p-header__sp" id="js-header">
-          <a href="#top"><img class="p-header__logo fadeIn_delay_1000ms" src="assets/images/bunken_rogo.png" alt="文建株式会社ロゴ"></a>
-          <div class="p-header__button">
-            <button class="p-header__button__hamburger" id="js-hamburger">
-              <div class="p-header__button__hamburger__inner">
+          <div class="p-header__nav">
+            <button class="p-header__button" id="js-hamburger">
+              <div class="p-header__button--hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
               </div>
               <p>MENU</p>
             </button>
-            <nav class="p-header__button__nav" id="js-nav">
-              <ul class="p-header__button__nav__list">
-                <li class="p-header__button__nav__list--item"><a href="#top" id="js-nav__top">TOP</a></li>
-                <li class="p-header__button__nav__list--item"><a href="#services" id="js-nav__services">事業内容</a></li>
-                <li class="p-header__button__nav__list--item"><a href="#works" id="js-nav__works">施工事例</a></li>
-                <li class="p-header__button__nav__list--item"><a href="#greeting" id="js-nav__greeting">代表挨拶</a></li>
-                <li class="p-header__button__nav__list--item"><a href="#company" id="js-nav__company">会社情報</a></li>
-                <li class="p-header__button__nav__list--item"><a href="#recruit" id="js-nav__recruit">採用情報</a></li>
-                <li class="p-header__button__nav__list--item"><a href="#contact" id="js-nav__contact">お問い合わせ</a></li>
+            <nav class="p-header__navList" id="js-nav">
+              <ul class="p-header__navList__inner">
+                <li class="p-header__navList--item"><a href="#top" id="js-nav__top">TOP</a></li>
+                <li class="p-header__navList--item"><a href="#services" id="js-nav__services">事業内容</a></li>
+                <li class="p-header__navList--item"><a href="#works" id="js-nav__works">施工事例</a></li>
+                <li class="p-header__navList--item"><a href="#greeting" id="js-nav__greeting">代表挨拶</a></li>
+                <li class="p-header__navList--item"><a href="#company" id="js-nav__company">会社情報</a></li>
+                <li class="p-header__navList--item"><a href="#recruit" id="js-nav__recruit">採用情報</a></li>
+                <li class="p-header__navList--item"><a href="#contact" id="js-nav__contact">お問い合わせ</a></li>
               </ul>
             </nav>
-          </div>
-          <div class="c-header__sp__bottom">
-            <a class="c-header__sp__bottom--link" href="tel:000-0000-0000">
-              <img src="assets/images/bunken_header_icon_phone.png" alt="電話アイコン" width="15px">
-              <p>電話する</p>
-            </a>
-            <div class="c-header__sp__bottom--border"></div>
-            <a class="c-header__sp__bottom--link" href="#contact">
-              <img src="assets/images/bunken_header_icon_mail.png" alt="メールアイコン" width="15px">
-              <p>お問い合わせ</p>
-            </a>
           </div>
         </div>
       </div>
@@ -79,10 +52,22 @@
     <div class="l-main">
       <div class="p-main slide" id="js-slide">
 
+        <!-- bottomMenu -->
+        <div class="c-bottomMenu">
+          <a class="c-bottomMenu--link" href="tel:000-0000-0000">
+            <img src="assets/images/bunken_header_icon_phone.png" alt="電話アイコン" width="15px">
+            <p>電話する</p>
+          </a>
+          <a class="c-bottomMenu--link" href="#contact">
+            <img src="assets/images/bunken_header_icon_mail.png" alt="メールアイコン" width="15px">
+            <p>お問い合わせ</p>
+          </a>
+        </div>
+
         <!-- Top -->
         <section class="p-main__top fadeIn" id="top">
           <div class="p-main__top__inner">
-            <div class="p-main__top__inner--bgImg">
+            <div class="p-main__top__bgImg">
               <div class="p-main__top__titleText">
                 <p class="p-main__top__titleText--title fadeIn_delay_1000ms"><span>未</span>来へ繋げる<span>解</span>体</p>
                 <p class="p-main__top__titleText--text fadeIn_delay_1000ms">思いが詰まった建物だからこそ、丁寧に</p>
@@ -97,7 +82,7 @@
 
         <!-- Services -->
         <section class="p-main__services" id="services">
-          <div class="p-main__services--bgImg">
+          <div class="p-main__services__bgImg">
             <div class="p-main__services__inner">
               <h2 class="c-section fadeIn">
                 <p class="c-section--title"><span>S</span>ERVICES</p>
@@ -114,11 +99,11 @@
             </div>
           </div>
           <div class="p-main__services__imgs">
-            <div class="p-main__services__imgs--img"></div>
-            <div class="p-main__services__imgs--img"></div>
-            <div class="p-main__services__imgs--img"></div>
-            <div class="p-main__services__imgs--img"></div>
-            <div class="p-main__services__imgs--img"></div>
+            <div class="p-main__services__imgs--item"></div>
+            <div class="p-main__services__imgs--item"></div>
+            <div class="p-main__services__imgs--item"></div>
+            <div class="p-main__services__imgs--item"></div>
+            <div class="p-main__services__imgs--item"></div>
           </div>
         </section>
 
@@ -241,7 +226,7 @@
         <!-- Greeting -->
         <section class="p-main__greeting" id="greeting">
           <div class="p-main__greeting__inner">
-            <div class="p-main__greeting__inner--bgImg">
+            <div class="p-main__greeting__bgImg">
               <h2 class="c-section fadeIn">
                 <p class="c-section--title"><span>G</span>REETING</p>
                 <p class="c-section--text">代表挨拶</p>
@@ -269,23 +254,23 @@
             </h2>
             <div class="p-main__company__textMap">
               <div class="p-main__company__textMap__texts fadeIn">
-                <div class="p-main__company__textMap__texts__inner">
-                  <p class="p-main__company__textMap__texts__inner--text">会社名</p><p>文建株式会社</p>
+                <div class="p-main__company__textMap__text">
+                  <p>会社名</p><p>文建株式会社</p>
                 </div>
-                <div class="p-main__company__textMap__texts__inner">
-                  <p class="p-main__company__textMap__texts__inner--text">代表氏名</p><p>〇〇</p>
+                <div class="p-main__company__textMap__text">
+                  <p>代表氏名</p><p>〇〇</p>
                 </div>
-                <div class="p-main__company__textMap__texts__inner">
-                  <p class="p-main__company__textMap__texts__inner--text">設立日</p><p>2022年10月11日</p>
+                <div class="p-main__company__textMap__text">
+                  <p>設立日</p><p>2022年10月11日</p>
                 </div>
-                <div class="p-main__company__textMap__texts__inner">
-                  <p class="p-main__company__textMap__texts__inner--text">所在地</p><p>〒332-0023<br>埼玉県川口市飯塚3丁目12番16-202号</p>
+                <div class="p-main__company__textMap__text">
+                  <p>所在地</p><p>〒332-0023<br>埼玉県川口市飯塚3丁目12番16-202号</p>
                 </div>
-                <div class="p-main__company__textMap__texts__inner">
-                  <p class="p-main__company__textMap__texts__inner--text">連絡先</p><p>077-589-4899</p>
+                <div class="p-main__company__textMap__text">
+                  <p>連絡先</p><p>077-589-4899</p>
                 </div>
-                <div class="p-main__company__textMap__texts__inner">
-                  <p class="p-main__company__textMap__texts__inner--text">メール</p><p>example@gmail.com</p>
+                <div class="p-main__company__textMap__text">
+                  <p>メール</p><p>example@gmail.com</p>
                 </div>
               </div>
               <div class="p-main__company__textMap__map fadeIn_right">
@@ -303,35 +288,35 @@
               <p class="c-section--text">会社情報</p>
             </h2>
             <div class="p-main__recruit__texts">
-              <div class="p-main__recruit__texts__inner fadeIn">
-                <p class="p-main__recruit__texts__inner--text">■応募資格</p>
+              <div class="p-main__recruit__text fadeIn">
+                <p>■応募資格</p>
                 <p>日本語がしゃべれる方、18歳以上　※未経験可　※経験者優遇　※普通免許取得者歓迎</p>
               </div>
-              <div class="p-main__recruit__texts__inner fadeIn">
-                <p class="p-main__recruit__texts__inner--text">■給与</p>
+              <div class="p-main__recruit__text fadeIn">
+                <p>■給与</p>
                 <p>社員/月給制、アルバイト/日給制　13,000円～</p>
               </div>
-              <div class="p-main__recruit__texts__inner fadeIn">
-                <p class="p-main__recruit__texts__inner--text">■勤務時間</p>
+              <div class="p-main__recruit__text fadeIn">
+                <p>■勤務時間</p>
                 <p>
                   8:00～17:00（場合によっては残業有）<br>
                   休日：日曜日、祝日
                 </p>
               </div>
-              <div class="p-main__recruit__texts__inner fadeIn">
-                <p class="p-main__recruit__texts__inner--text">■勤務地</p>
+              <div class="p-main__recruit__text fadeIn">
+                <p>■勤務地</p>
                 <p>神奈川、埼玉、千葉、東京（場合によって関東県内で出張有）</p>
               </div>
-              <div class="p-main__recruit__texts__inner fadeIn">
-                <p class="p-main__recruit__texts__inner--text">■交通費</p>
+              <div class="p-main__recruit__text fadeIn">
+                <p>■交通費</p>
                 <p>交通費一部支給 　※車・バイク通勤可（高速代支給）</p>
               </div>
-              <div class="p-main__recruit__texts__inner fadeIn">
-                <p class="p-main__recruit__texts__inner--text">■福利厚生</p>
+              <div class="p-main__recruit__text fadeIn">
+                <p>■福利厚生</p>
                 <p>厚生年金、社会保険</p>
               </div>
-              <div class="p-main__recruit__texts__inner fadeIn">
-                <p class="p-main__recruit__texts__inner--text">■応募方法</p>
+              <div class="p-main__recruit__text fadeIn">
+                <p>■応募方法</p>
                 <p>
                   フォーム、TELにてご連絡いただき、履歴書をご持参下さい。<br>
                   ・パート事務員も募集（週に１日）<br>
@@ -387,13 +372,13 @@
         <div class="p-footer--line"></div>
         <div class="p-footer__links">
           <div class="p-footer__links__inner">
-            <a class="p-footer__links--link" href="#top">TOP</a>
-            <a class="p-footer__links--link" href="#works">施工事例</a>
-            <a class="p-footer__links--link" href="#company">会社情報</a>
-            <a class="p-footer__links--link" href="#contact">お問い合わせ</a><br>
-            <a class="p-footer__links--link" href="#services">事業内容</a>
-            <a class="p-footer__links--link" href="#greeting">代表挨拶</a>
-            <a class="p-footer__links--link" href="#recruit">採用情報</a>
+            <a class="p-footer__links--item" href="#top">TOP</a>
+            <a class="p-footer__links--item" href="#works">施工事例</a>
+            <a class="p-footer__links--item" href="#company">会社情報</a>
+            <a class="p-footer__links--item" href="#contact">お問い合わせ</a><br>
+            <a class="p-footer__links--item" href="#services">事業内容</a>
+            <a class="p-footer__links--item" href="#greeting">代表挨拶</a>
+            <a class="p-footer__links--item" href="#recruit">採用情報</a>
           </div>
         </div>
       </div>

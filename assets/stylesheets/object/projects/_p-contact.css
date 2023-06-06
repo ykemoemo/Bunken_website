@@ -1,0 +1,19 @@
+/* pc design */
+@media screen and (min-width: 900px){
+    .p-main__contact{
+        background: rgba(233, 224, 142, 0.1);
+        padding-bottom: 100px;
+    }
+    .p-main__contact__inner{
+        padding-top: 100px;
+    }
+}
+
+/* sp design */
+@media screen and (max-width: 899px){
+    .p-main__contact{
+        background: rgba(233, 224, 142, 0.1);
+        padding-top: 30px;
+        padding-bottom: 35px;
+    }
+}

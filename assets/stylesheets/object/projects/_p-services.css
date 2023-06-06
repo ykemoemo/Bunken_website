@@ -1,7 +1,7 @@
 /* pc design */
 @media screen and (min-width: 900px){
     /* Services */
-    .p-main__services--bgImg{
+    .p-main__services__bgImg{
         background-image: url("../../../images/bunken_services_bg_iStock.jpg");
         background-size: cover;
         background-position: center;
@@ -10,7 +10,7 @@
         position: relative;
         z-index: -2;
     }
-    .p-main__services--bgImg::before{
+    .p-main__services__bgImg::before{
         background-color: rgba(0,0,0,0.6);
         position: absolute;
         top: 0;
@@ -47,25 +47,25 @@
     .p-main__services__imgs{
         display: flex;
     }
-    .p-main__services__imgs--img{
+    .p-main__services__imgs--item{
         width: 100%;
         padding-bottom: 20%;
         background-position: center;
         background-size: cover;
     }
-    .p-main__services__imgs--img:nth-child(1){
+    .p-main__services__imgs--item:nth-child(1){
         background-image: url("../../../images/bunken_services_1_iStock.jpg");
     }
-    .p-main__services__imgs--img:nth-child(2){
+    .p-main__services__imgs--item:nth-child(2){
         background-image: url("../../../images/bunken_services_2_iStock.jpg");
     }
-    .p-main__services__imgs--img:nth-child(3){
+    .p-main__services__imgs--item:nth-child(3){
         background-image: url("../../../images/bunken_services_3_iStock.jpg");
     }
-    .p-main__services__imgs--img:nth-child(4){
+    .p-main__services__imgs--item:nth-child(4){
         background-image: url("../../../images/bunken_services_4_iStock.jpg");
     }
-    .p-main__services__imgs--img:nth-child(5){
+    .p-main__services__imgs--item:nth-child(5){
         background-image: url("../../../images/bunken_services_5_iStock.jpg");
     }
 }
@@ -76,7 +76,7 @@
     .p-main__services{
         margin-bottom: 50px;
     }
-    .p-main__services--bgImg{
+    .p-main__services__bgImg{
         background-image: url("../../../images/bunken_services_bg_iStock.jpg");
         background-size: cover;
         background-position: center;
@@ -84,7 +84,7 @@
         height: 70vh;
         position: relative;
     }
-    .p-main__services--bgImg::before{
+    .p-main__services__bgImg::before{
         background-color: rgba(0,0,0,0.6);
         position: absolute;
         top: 0;
@@ -119,25 +119,25 @@
     .p-main__services__imgs{
         display: flex;
     }
-    .p-main__services__imgs--img{
+    .p-main__services__imgs--item{
         width: 100%;
         padding-bottom: 33.333%;
         background-position: center;
         background-size: cover;
     }
-    .p-main__services__imgs--img:nth-child(1){
+    .p-main__services__imgs--item:nth-child(1){
         background-image: url("../../../images/bunken_services_1_iStock.jpg");
     }
-    .p-main__services__imgs--img:nth-child(2){
+    .p-main__services__imgs--item:nth-child(2){
         background-image: url("../../../images/bunken_services_2_iStock.jpg");
     }
-    .p-main__services__imgs--img:nth-child(3){
+    .p-main__services__imgs--item:nth-child(3){
         background-image: url("../../../images/bunken_services_3_iStock.jpg");
     }
-    .p-main__services__imgs--img:nth-child(4){
+    .p-main__services__imgs--item:nth-child(4){
         display: none;
     }
-    .p-main__services__imgs--img:nth-child(5){
+    .p-main__services__imgs--item:nth-child(5){
         display: none;
     }
 }

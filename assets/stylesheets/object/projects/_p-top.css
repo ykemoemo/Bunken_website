@@ -1,7 +1,7 @@
 /* pc design */
 @media screen and (min-width: 900px){
     /* Top */
-    .p-main__top__inner--bgImg{
+    .p-main__top__bgImg{
         background-image: url("../../../images/bunken_top_bg_iStock.jpg");
         background-size: cover;
         background-position: center;
@@ -59,7 +59,7 @@
 /* sp design */
 @media screen and (max-width: 899px){
     /* Top */
-    .p-main__top__inner--bgImg{
+    .p-main__top__bgImg{
         background-image: url("../../../images/bunken_top_bg_iStock.jpg");
         background-size: cover;
         background-position: center;

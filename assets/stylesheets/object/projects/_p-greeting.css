@@ -3,7 +3,7 @@
     .p-main__greeting__inner{
         margin-bottom: 150px;
     }
-    .p-main__greeting__inner--bgImg{
+    .p-main__greeting__bgImg{
         background-image: url("../../../images/bunken_greeting_bg_iStock.jpg");
         background-size: cover;
         background-position: center;
@@ -14,7 +14,7 @@
         z-index: -2;
         margin-bottom: 65px;
     }
-    .p-main__greeting__inner--bgImg::before{
+    .p-main__greeting__bgImg::before{
         background-color: rgba(0,0,0,0.3);
         position: absolute;
         top: 0;
@@ -64,7 +64,7 @@
     .p-main__greeting__inner{
         margin-bottom: 70px;
     }
-    .p-main__greeting__inner--bgImg{
+    .p-main__greeting__bgImg{
         background-image: url("../../../images/bunken_greeting_bg_iStock.jpg");
         background-size: cover;
         background-position: center;
@@ -75,7 +75,7 @@
         z-index: -2;
         margin-bottom: 30px;
     }
-    .p-main__greeting__inner--bgImg::before{
+    .p-main__greeting__bgImg::before{
         background-color: rgba(0,0,0,0.3);
         position: absolute;
         top: 0;
