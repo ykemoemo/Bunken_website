@@ -41,18 +41,18 @@
     .p-main__company__textMap__texts{
         width: 100%;
     }
-    .p-main__company__textMap__text{
+    .p-main__company__textMap__texts__inner{
         color: white;
         margin-bottom: 20px;
         display: flex;
     }
-    .p-main__company__textMap__text:last-child{
+    .p-main__company__textMap__texts__inner:last-child{
         margin-bottom: 0px;
     }
-    .p-main__company__textMap__text p:first-child{
+    .p-main__company__textMap__texts__inner--text{
         width: 25%;
     }
-    .p-main__company__textMap__text p:last-child{
+    .p-main__company__textMap__texts__inner p:nth-child(2){
         width: 70%;
     }
     .p-main__company__textMap__map{
@@ -110,7 +110,7 @@
         margin-bottom: 40px;
         max-width: 400px;
     }
-    .p-main__company__textMap__text{
+    .p-main__company__textMap__texts__inner{
         color: white;
         display: flex;
         justify-content: center;
@@ -120,13 +120,13 @@
         margin-bottom: 2%;
         width: 100%;
     }
-    .p-main__company__textMap__text:last-child{
+    .p-main__company__textMap__texts__inner:last-child{
         margin-bottom: 0px;
     }
-    .p-main__company__textMap__text p:first-child{
+    .p-main__company__textMap__texts__inner .p-main__company__textMap__texts__inner--text{
         width: 30%;
     }
-    .p-main__company__textMap__text p:last-child{
+    .p-main__company__textMap__texts__inner p{
         width: 70%;
     }
     .p-main__company__textMap__map{
