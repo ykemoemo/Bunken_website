@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  php-environment:
+    build: ./php-environment
+    ports:
+    - 8080:8000
+    volumes:
+      - type: bind
+        source: "."
+        target: "/Bunken"
