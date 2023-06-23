@@ -18,10 +18,10 @@
         width: 100%;
         margin-bottom: 15px;
     }
-    .p-main__recruit__text p:first-child{
+    .p-main__recruit__text dt{
         width: 20%;
     }
-    .p-main__recruit__text p:last-child{
+    .p-main__recruit__text dd{
         width: 80%;
     }
 }

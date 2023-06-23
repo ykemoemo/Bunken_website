@@ -49,10 +49,10 @@
     .p-main__company__textMap__text:last-child{
         margin-bottom: 0px;
     }
-    .p-main__company__textMap__text p:first-child{
+    .p-main__company__textMap__text dt{
         width: 25%;
     }
-    .p-main__company__textMap__text p:last-child{
+    .p-main__company__textMap__text dd{
         width: 70%;
     }
     .p-main__company__textMap__map{
@@ -123,10 +123,10 @@
     .p-main__company__textMap__text:last-child{
         margin-bottom: 0px;
     }
-    .p-main__company__textMap__text p:first-child{
+    .p-main__company__textMap__text dt{
         width: 30%;
     }
-    .p-main__company__textMap__text p:last-child{
+    .p-main__company__textMap__text dd{
         width: 70%;
     }
     .p-main__company__textMap__map{
