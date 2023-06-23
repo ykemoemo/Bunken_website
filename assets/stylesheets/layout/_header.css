@@ -24,6 +24,10 @@
   .p-header__logo.active{
     width: 10%;
   }
+  .p-header__logo:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=70);
+  }
   .p-header__button{
     display: none;
   }
@@ -53,6 +57,9 @@
   }
   .p-header__navList--item:last-child img{
     margin-right: 5px;
+  }
+  .p-header__navList--item:hover{
+    opacity: 0.5;
   }
 }
 
@@ -84,6 +91,10 @@
   .p-header__logo.active{
     width: 10%;
   }
+  .p-header__logo:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=70);
+  }
   .p-header__button{
     background-color: #A6BD66;
     border: none;
@@ -93,6 +104,9 @@
     right: 0;
     z-index: 101;
     cursor: pointer;
+  }
+  .p-header__button:hover{
+    opacity: 0.6;
   }
   .p-header__button--hamburger{
     height: 12px;
@@ -164,6 +178,9 @@
   .p-header__navList--item a{
     display: block;
     padding: 16px 10%;
+  }
+  .p-header__navList--item a:hover{
+    background-color: rgba(232, 232, 232, 0.5);
   }
   .p-header__navList--item::after{
     content: "";

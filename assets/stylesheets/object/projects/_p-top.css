@@ -54,6 +54,9 @@
         height: 0px;
         margin: 0 auto;
     }
+    .p-main__top__scroll:hover{
+        opacity: 0.5;
+    }
 }
 
 /* sp design */
@@ -113,5 +116,8 @@
         width: 0px;
         height: 0px;
         margin: 0 auto;
+    }
+    .p-main__top__scroll:hover{
+        opacity: 0.5;
     }
 }

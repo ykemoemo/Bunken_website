@@ -46,6 +46,9 @@
     .p-footer__links--item:last-child{
         margin-right: 0px;
     }
+    .p-footer__links--item:hover{
+        opacity: 0.6;
+    }
 }
 
 /* sp design */
