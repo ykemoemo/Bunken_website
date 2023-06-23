@@ -291,7 +291,7 @@
           <div class="p-main__recruit__inner">
             <h3 class="c-section fadeIn">
               <span class="c-section--title"><span>R</span>ECRUIT</span>
-              <span class="c-section--text">会社情報</span>
+              <span class="c-section--text">採用情報</span>
             </h3>
             <div class="p-main__recruit__texts">
               <div class="p-main__recruit__text fadeIn">
@@ -343,15 +343,15 @@
             <form class="c-form" method="post" action="mail.php">
               <div class="c-form--label fadeIn">
                 <label for="name">お名前</label><br>
-                <input type="text" id="name" name="name"/>
+                <input type="text" id="name" name="name" required/>
               </div>
               <div class="c-form--label fadeIn">
                 <label for="mail">メールアドレス</label><br>
-                <input type="mail" id="mail" name="mail"/>
+                <input type="email" id="mail" name="mail" required/>
               </div>
               <div class="c-form--label fadeIn">
                 <label for="message">お問い合わせ内容</label><br>
-                <textarea id="message" name="message"></textarea>
+                <textarea id="message" name="message" required></textarea>
               </div>
               <input class="c-form--submit fadeIn" type="submit" value="送信"/>
             </form>
