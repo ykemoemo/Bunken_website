@@ -1,48 +1,48 @@
 /* pc design */
 @media screen and (min-width: 900px){
     /* section */
-    .c-section{
+    .p-section__title{
         font-style: normal;
         color: white;
         width:fit-content;
         margin:0 auto;
     }
-    .c-section--title{
+    .p-section__title--top{
         font-family: 'Hiragino Kaku Gothic Pro';
         font-weight: 600;
         font-size: 48px;
         line-height: 72px;
         letter-spacing: 0.1em;
     }
-    .c-section--title span{
+    .p-section__title--top span{
         color: #A6BD66;
     }
-    .c-section--text{
+    .p-section__title--sub{
         font-weight: 300;
         font-size: 16px;
         line-height: 19px;
         display: flex;
 	    align-items: center;
     }
-    .c-section--text:before,
-    .c-section--text:after {
+    .p-section__title--sub:before,
+    .p-section__title--sub:after {
         content: "";
         flex-grow: 1;
         height: 1px;
         background: white;
         margin:0 0.4em;
     }
-    .p-main__works__inner > .c-section,
-    .p-main__recruit__inner > .c-section,
-    .p-main__contact__inner > .c-section{
+    .p-works__inner > .p-section__title,
+    .p-recruit__inner > .p-section__title,
+    .p-contact__inner > .p-section__title{
         color: black;
     }
-    .p-main__works__inner > .c-section > .c-section--text:before,
-    .p-main__works__inner > .c-section > .c-section--text:after,
-    .p-main__recruit__inner > .c-section > .c-section--text:before,
-    .p-main__recruit__inner > .c-section > .c-section--text:after,
-    .p-main__contact__inner > .c-section > .c-section--text:before,
-    .p-main__contact__inner > .c-section > .c-section--text:after{
+    .p-works__inner > .p-section__title > .p-section__title--sub:before,
+    .p-works__inner > .p-section__title > .p-section__title--sub:after,
+    .p-recruit__inner > .p-section__title > .p-section__title--sub:before,
+    .p-recruit__inner > .p-section__title > .p-section__title--sub:after,
+    .p-contact__inner > .p-section__title > .p-section__title--sub:before,
+    .p-contact__inner > .p-section__title > .p-section__title--sub:after{
         background:  black;
     }
     a.anchor{
@@ -55,23 +55,23 @@
 /* sp design */
 @media screen and (max-width: 899px){
     /* section */
-    .c-section{
+    .p-section__title{
         font-style: normal;
         color: white;
         width:fit-content;
         margin:0 auto;
     }
-    .c-section--title{
+    .p-section__title--top{
         font-family: 'Hiragino Kaku Gothic Pro';
         font-weight: 600;
         font-size: 32px;
         line-height: 48px;
         letter-spacing: 0.05em;
     }
-    .c-section--title span{
+    .p-section__title--top span{
         color: #ABD766;
     }
-    .c-section--text{
+    .p-section__title--sub{
         font-family: 'Hiragino Sans';
         font-weight: 300;
         font-size: 14px;
@@ -79,25 +79,25 @@
         display: flex;
         align-items: center;
     }
-    .c-section--text:before,
-    .c-section--text:after {
+    .p-section__title--sub:before,
+    .p-section__title--sub:after {
         content: "";
         flex-grow: 1;
         height: 1px;
         background: white;
         margin:0 0.4em;
     }
-    .p-main__works__inner > .c-section,
-    .p-main__recruit__inner > .c-section,
-    .p-main__contact__inner > .c-section{
+    .p-works__inner > .p-section__title,
+    .p-recruit__inner > .p-section__title,
+    .p-contact__inner > .p-section__title{
         color: black;
     }
-    .p-main__works__inner > .c-section > .c-section--text:before,
-    .p-main__works__inner > .c-section > .c-section--text:after,
-    .p-main__recruit__inner > .c-section > .c-section--text:before,
-    .p-main__recruit__inner > .c-section > .c-section--text:after,
-    .p-main__contact__inner > .c-section > .c-section--text:before,
-    .p-main__contact__inner > .c-section > .c-section--text:after{
+    .p-works__inner > .p-section__title > .p-section__title--sub:before,
+    .p-works__inner > .p-section__title > .p-section__title--sub:after,
+    .p-recruit__inner > .p-section__title > .p-section__title--sub:before,
+    .p-recruit__inner > .p-section__title > .p-section__title--sub:after,
+    .p-contact__inner > .p-section__title > .p-section__title--sub:before,
+    .p-contact__inner > .p-section__title > .p-section__title--sub:after{
         background:  black;
     }
 }

@@ -6,24 +6,24 @@
         margin: 0 auto;
         margin-top: 50px;
     }
-    .c-form--label{
+    .c-form__label{
         margin-bottom: 35px;
     }
-    .c-form--label > label{
+    .c-form__label > label{
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
     }
-    .c-form--label > input,
-    .c-form--label > textarea{
+    .c-form__label > input,
+    .c-form__label > textarea{
         width: 100%;
         border: 1px solid rgba(0, 0, 0, 0.3);
         border-radius: 4px;
     }
-    .c-form--label > textarea{
+    .c-form__label > textarea{
         height: 200px;
     }
-    .c-form--submit{
+    .c-form__submit{
         display: block;
         margin: 0 auto;
         width: 95px;
@@ -36,7 +36,7 @@
         font-size: 16px;
         line-height: 19px;
     }
-    .c-form--submit:hover{
+    .c-form__submit:hover{
         cursor: pointer;
     }
 }
@@ -49,24 +49,24 @@
         margin: 0 auto;
         margin-top: 20px;
     }
-    .c-form--label{
+    .c-form__label{
         margin-bottom: 20px;
     }
-    .c-form--label > label{
+    .c-form__label > label{
         font-weight: 400;
         font-size: 12px;
         line-height: 15px;
     }
-    .c-form--label > input,
-    .c-form--label > textarea{
+    .c-form__label > input,
+    .c-form__label > textarea{
         width: 100%;
         border: 1px solid rgba(0, 0, 0, 0.3);
         border-radius: 4px;
     }
-    .c-form--label > textarea{
+    .c-form__label > textarea{
         height: 200px;
     }
-    .c-form--submit{
+    .c-form__submit{
         display: block;
         margin: 0 auto;
         width: 58px;
@@ -79,7 +79,7 @@
         font-size: 12px;
         line-height: 15px;
     }
-    .c-form--submit:hover{
+    .c-form__submit:hover{
         cursor: pointer;
     }
 }

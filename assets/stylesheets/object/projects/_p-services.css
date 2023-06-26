@@ -1,7 +1,7 @@
 /* pc design */
 @media screen and (min-width: 900px){
     /* Services */
-    .p-main__services__bgImg{
+    .p-services__bgImg{
         background-image: url("../../../images/bunken_services_bg_iStock.jpg");
         background-size: cover;
         background-position: center;
@@ -10,7 +10,7 @@
         position: relative;
         z-index: -2;
     }
-    .p-main__services__bgImg::before{
+    .p-services__bgImg::before{
         background-color: rgba(0,0,0,0.6);
         position: absolute;
         top: 0;
@@ -20,7 +20,7 @@
         content: ' ';
         z-index: -1;
     }
-    .p-main__services__inner{
+    .p-services__inner{
         text-align: center;
         color: white;
         font-weight: 300;
@@ -30,42 +30,42 @@
         left:50%;
         transform:translate(-50%,-50%);
     }
-    .p-main__services--title{
+    .p-services__title{
         font-family: 'Hiragino Mincho Pro';
         font-size: 30px;
         line-height: 45px;
         margin-top: 50px;
         margin-bottom: 25px;
     }
-    .p-main__services--text{
+    .p-services__text{
         font-size: 16px;
         line-height: 200%;
         width: 80%;
         margin: 0 auto;
     }
 
-    .p-main__services__imgs{
+    .p-services__imgs{
         display: flex;
     }
-    .p-main__services__imgs--item{
+    .p-services__img{
         width: 100%;
         padding-bottom: 20%;
         background-position: center;
         background-size: cover;
     }
-    .p-main__services__imgs--item:nth-child(1){
+    .p-services__img:nth-child(1){
         background-image: url("../../../images/bunken_services_1_iStock.jpg");
     }
-    .p-main__services__imgs--item:nth-child(2){
+    .p-services__img:nth-child(2){
         background-image: url("../../../images/bunken_services_2_iStock.jpg");
     }
-    .p-main__services__imgs--item:nth-child(3){
+    .p-services__img:nth-child(3){
         background-image: url("../../../images/bunken_services_3_iStock.jpg");
     }
-    .p-main__services__imgs--item:nth-child(4){
+    .p-services__img:nth-child(4){
         background-image: url("../../../images/bunken_services_4_iStock.jpg");
     }
-    .p-main__services__imgs--item:nth-child(5){
+    .p-services__img:nth-child(5){
         background-image: url("../../../images/bunken_services_5_iStock.jpg");
     }
 }
@@ -73,10 +73,7 @@
 /* sp design */
 @media screen and (max-width: 899px){
     /* Services */
-    .p-main__services{
-        margin-bottom: 50px;
-    }
-    .p-main__services__bgImg{
+    .p-services__bgImg{
         background-image: url("../../../images/bunken_services_bg_iStock.jpg");
         background-size: cover;
         background-position: center;
@@ -84,7 +81,7 @@
         height: 70vh;
         position: relative;
     }
-    .p-main__services__bgImg::before{
+    .p-services__bgImg::before{
         background-color: rgba(0,0,0,0.6);
         position: absolute;
         top: 0;
@@ -93,7 +90,7 @@
         left: 0;
         content: ' ';
     }
-    .p-main__services__inner{
+    .p-services__inner{
         text-align: center;
         color: white;
         font-weight: 300;
@@ -103,41 +100,42 @@
         left:50%;
         transform:translate(-50%,-50%);
     }
-    .p-main__services--title{
+    .p-services__title{
         font-family: 'Hiragino Mincho Pro';
         font-size: 20px;
         line-height: 30px;
         margin-top: 35px;
         margin-bottom: 14px;
     }
-    .p-main__services--text{
+    .p-services__text{
         font-size: 12px;
         line-height: 200%;
         width: 80%;
         margin: 0 auto;
     }
-    .p-main__services__imgs{
+    .p-services__imgs{
         display: flex;
+        margin-bottom: 50px;
     }
-    .p-main__services__imgs--item{
+    .p-services__img{
         width: 100%;
         padding-bottom: 33.333%;
         background-position: center;
         background-size: cover;
     }
-    .p-main__services__imgs--item:nth-child(1){
+    .p-services__img:nth-child(1){
         background-image: url("../../../images/bunken_services_1_iStock.jpg");
     }
-    .p-main__services__imgs--item:nth-child(2){
+    .p-services__img:nth-child(2){
         background-image: url("../../../images/bunken_services_2_iStock.jpg");
     }
-    .p-main__services__imgs--item:nth-child(3){
+    .p-services__img:nth-child(3){
         background-image: url("../../../images/bunken_services_3_iStock.jpg");
     }
-    .p-main__services__imgs--item:nth-child(4){
+    .p-services__img:nth-child(4){
         display: none;
     }
-    .p-main__services__imgs--item:nth-child(5){
+    .p-services__img:nth-child(5){
         display: none;
     }
 }

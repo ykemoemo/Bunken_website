@@ -1,7 +1,7 @@
 /* pc design */
 @media screen and (min-width: 900px){
     /* Top */
-    .p-main__top__bgImg{
+    .p-top__bgImg{
         background-image: url("../../../images/bunken_top_bg_iStock.jpg");
         background-size: cover;
         background-position: center;
@@ -10,7 +10,7 @@
         display: table;
         position: relative;
     }
-    .p-main__top__titleText{
+    .p-top__title{
         font-family: 'Hiragino Mincho Pro';
         color: white;
         text-shadow: 0px 0px 10px #000000;
@@ -18,35 +18,35 @@
         display: table-cell;
         vertical-align: middle;
     }
-    .p-main__top__titleText--title{
+    .p-top__title--top{
         font-size: 50px;
         line-height: 75px;
         margin-bottom: 13px;
         font-weight: 600;
     }
-    .p-main__top__titleText--title span{
+    .p-top__title--top span{
         color: #ABD766;
     }
-    .p-main__top__titleText--text{
+    .p-top__title--sub{
         font-size: 24px;
         line-height: 36px;
         font-weight: 300;
     }
-    .p-main__top__scroll{
+    .p-top__scroll{
         color: white;
         position: absolute;
         bottom: 10px;
         left: 50%;
         transform: translatex(-50%);
     }
-    .p-main__top__scroll--text{
+    .p-top__scroll--text{
         font-weight: 400;
         font-size: 16px;
         line-height: 21px;
         letter-spacing: 0.2em;
         text-align: center;
     }
-    .p-main__top__scroll--figure{
+    .p-top__scroll--figure{
         border-right: 10px solid transparent;
         border-left: 10px solid transparent;
         border-top: 10px solid white;
@@ -54,7 +54,7 @@
         height: 0px;
         margin: 0 auto;
     }
-    .p-main__top__scroll:hover{
+    .p-top__scroll:hover{
         opacity: 0.5;
     }
 }
@@ -62,7 +62,7 @@
 /* sp design */
 @media screen and (max-width: 899px){
     /* Top */
-    .p-main__top__bgImg{
+    .p-top__bgImg{
         background-image: url("../../../images/bunken_top_bg_iStock.jpg");
         background-size: cover;
         background-position: center;
@@ -72,7 +72,7 @@
         margin-bottom: -50px;
         position: relative;
     }
-    .p-main__top__titleText{
+    .p-top__title{
         font-family: 'Hiragino Mincho Pro';
         font-style: normal;
         color: white;
@@ -81,35 +81,35 @@
         display: table-cell;
         vertical-align: middle;
     }
-    .p-main__top__titleText--title{
+    .p-top__title--top{
         font-size: 32px;
         line-height: 40px;
         margin-bottom: 4px;
         font-weight: 600;
     }
-    .p-main__top__titleText--title span{
+    .p-top__title--top span{
         color: #ABD766;
     }
-    .p-main__top__titleText--text{
+    .p-top__title--sub{
         font-size: 16px;
         line-height: 24px;
         font-weight: 300;
     }
-    .p-main__top__scroll{
+    .p-top__scroll{
         color: white;
         position: absolute;
         bottom: 60px;
         left: 50%;
         transform: translatex(-50%);
     }
-    .p-main__top__scroll--text{
+    .p-top__scroll--text{
         font-weight: 400;
         font-size: 12px;
         line-height: 21px;
         letter-spacing: 0.2em;
         text-align: center;
     }
-    .p-main__top__scroll--figure{
+    .p-top__scroll--figure{
         border-right: 8px solid transparent;
         border-left: 8px solid transparent;
         border-top: 8px solid white;
@@ -117,7 +117,7 @@
         height: 0px;
         margin: 0 auto;
     }
-    .p-main__top__scroll:hover{
+    .p-top__scroll:hover{
         opacity: 0.5;
     }
 }
