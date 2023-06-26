@@ -1,6 +1,6 @@
 /* pc design */
 @media screen and (min-width: 900px){
-    .p-main__company{
+    .p-company{
         background-image: url("../../../images/bunken_company_bg.jpg");
         background-size: cover;
         background-position: center;
@@ -11,7 +11,7 @@
         align-items: center;
         justify-content: center;
     }
-    .p-main__company__inner{
+    .p-company__inner{
         position: absolute;
         width: 100%;
         top: 50%;
@@ -20,7 +20,7 @@
         left: 50%;
         transform: translateY(-50%) translateX(-50%);
     }
-    .p-main__company::before{
+    .p-company::before{
         background-color: rgba(0,0,0,0.5);
         position: absolute;
         top: 0;
@@ -30,7 +30,7 @@
         content: ' ';
         z-index: -1;
     }
-    .p-main__company__textMap{
+    .p-company__textMap{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -38,31 +38,31 @@
         width: 70%;
         margin-top: 70px;
     }
-    .p-main__company__textMap__texts{
+    .p-company__textMap__texts{
         width: 100%;
     }
-    .p-main__company__textMap__text{
+    .p-company__textMap__text{
         color: white;
         margin-bottom: 20px;
         display: flex;
     }
-    .p-main__company__textMap__text:last-child{
+    .p-company__textMap__text:last-child{
         margin-bottom: 0px;
     }
-    .p-main__company__textMap__text dt{
+    .p-company__textMap__text dt{
         width: 25%;
     }
-    .p-main__company__textMap__text dd{
+    .p-company__textMap__text dd{
         width: 70%;
     }
-    .p-main__company__textMap__map{
+    .p-company__textMap__map{
         position: relative;
         width: 100%;
         height: 0;
         padding-top: 30%;
         min-height: 300px;
     }
-    .p-main__company__textMap__map iframe{
+    .p-company__textMap__map iframe{
         position: absolute;
         top: 0;
         left: 0;
@@ -73,7 +73,7 @@
 
 /* sp design */
 @media screen and (max-width: 899px){
-    .p-main__company{
+    .p-company{
         background-image: url("../../../images/bunken_company_bg.jpg");
         background-size: cover;
         background-position: center;
@@ -87,7 +87,7 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    .p-main__company::before{
+    .p-company::before{
         background-color: rgba(0,0,0,0.5);
         position: absolute;
         top: 0;
@@ -97,20 +97,20 @@
         content: ' ';
         z-index: -1;
     }
-    .p-main__company__inner{
+    .p-company__inner{
         width: 100%;
     }
-    .p-main__company__textMap{
+    .p-company__textMap{
         margin: 0 auto;
     }
-    .p-main__company__textMap__texts{
+    .p-company__textMap__texts{
         width: 70%;
         margin: 0 auto;
         margin-top: 40px;
         margin-bottom: 40px;
         max-width: 400px;
     }
-    .p-main__company__textMap__text{
+    .p-company__textMap__text{
         color: white;
         display: flex;
         justify-content: center;
@@ -120,16 +120,16 @@
         margin-bottom: 2%;
         width: 100%;
     }
-    .p-main__company__textMap__text:last-child{
+    .p-company__textMap__text:last-child{
         margin-bottom: 0px;
     }
-    .p-main__company__textMap__text dt{
+    .p-company__textMap__text dt{
         width: 30%;
     }
-    .p-main__company__textMap__text dd{
+    .p-company__textMap__text dd{
         width: 70%;
     }
-    .p-main__company__textMap__map{
+    .p-company__textMap__map{
         position: relative;
         width: 80%;
         height: 0;
@@ -137,7 +137,7 @@
         max-height: 300px;
         margin: 0 auto;
     }
-    .p-main__company__textMap__map iframe{
+    .p-company__textMap__map iframe{
         position: absolute;
         top: 0;
         left: 0;

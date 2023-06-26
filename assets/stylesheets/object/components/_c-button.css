@@ -1,0 +1,22 @@
+/* pc design */
+@media screen and (min-width: 900px){
+}
+
+/* sp design */
+@media screen and (max-width: 899px){
+    .c-button {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .c-button:hover{
+      background-color: rgba(240, 240, 240, 0.3);
+    }
+    .c-button:first-child {
+      border-right: 0.5px solid white;
+    }
+    .c-button img {
+      margin-right: 5px;
+    }
+}

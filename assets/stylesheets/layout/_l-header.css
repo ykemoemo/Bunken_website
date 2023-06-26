@@ -1,0 +1,19 @@
+/* pc design */
+@media screen and (min-width: 900px){
+  .l-header__inner{
+    background-color: white;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+  }
+}
+
+/* sp design */
+@media screen and (max-width: 899px){
+  .l-header__inner{
+    background-color: white;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+  }
+}
