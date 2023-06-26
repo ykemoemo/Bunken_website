@@ -1,14 +1,13 @@
 /* pc design */
 @media screen and (min-width: 900px){
-    .p-recruit__inner{
-        padding-top: 100px;
+    .p-recruit{
+        margin-top: 100px;
     }
     .p-recruit__texts{
         width: 60%;
         max-width: 740px;
         margin: 0 auto;
         margin-top: 65px;
-        margin-bottom: 110px;
     }
     .p-recruit__text{
         font-weight: 400;
@@ -16,7 +15,10 @@
         line-height: 200%;
         display: flex;
         width: 100%;
-        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .p-recruit__text:first-child{
+        margin-top: 0px;
     }
     .p-recruit__text dt{
         width: 20%;
@@ -30,7 +32,6 @@
 @media screen and (max-width: 899px){
     .p-recruit__inner{
         padding-top: 30px;
-        margin-bottom: 50px;
     }
     .p-recruit__texts{
         width: 85%;
@@ -43,6 +44,9 @@
         font-size: 12px;
         line-height: 150%;
         width: 100%;
-        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .p-recruit__text:first-child{
+        margin-top: 0px;
     }
 }

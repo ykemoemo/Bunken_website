@@ -1,7 +1,7 @@
 /* pc design */
 @media screen and (min-width: 900px){
-    .p-greeting__inner{
-        margin-bottom: 150px;
+    .p-greeting{
+        margin-top: 150px;
     }
     .p-greeting__bgImg{
         background-image: url("../../../images/bunken_greeting_bg_iStock.jpg");
@@ -12,7 +12,6 @@
         align-items: center;
         height: 250px;
         z-index: -2;
-        margin-bottom: 65px;
     }
     .p-greeting__bgImg::before{
         background-color: rgba(0,0,0,0.3);
@@ -32,13 +31,14 @@
         text-align: center;
         width: 50%;
         margin: 0 auto;
-        margin-bottom: 65px;
+        margin-top: 65px;
     }
     .p-greeting__imgText{
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
         width: 70%;
+        margin-top: 65px;
     }
     .p-greeting__imgText--img{
         background-image: url("../../../images/bunken_greeting_main.jpg");
@@ -61,8 +61,8 @@
 
 /* sp design */
 @media screen and (max-width: 899px){
-    .p-greeting__inner{
-        margin-bottom: 70px;
+    .p-greeting{
+        margin-top: 80px;
     }
     .p-greeting__bgImg{
         background-image: url("../../../images/bunken_greeting_bg_iStock.jpg");
@@ -73,7 +73,6 @@
         align-items: center;
         height: 120px;
         z-index: -2;
-        margin-bottom: 30px;
     }
     .p-greeting__bgImg::before{
         background-color: rgba(0,0,0,0.3);
@@ -93,11 +92,12 @@
         text-align: center;
         width: 60%;
         margin: 0 auto;
-        margin-bottom: 15px;
+        margin-top: 30px;
         max-width: 400px;
     }
     .p-greeting__imgText{
         margin: 0 auto;
+        margin-top: 15px;
     }
     .p-greeting__imgText--img{
         background-image: url("../../../images/bunken_greeting_main.jpg");
@@ -106,7 +106,6 @@
         width: 80%;
         padding-bottom: 50%;
         margin: 0 auto;
-        margin-bottom: 15px;
     }
     .p-greeting__imgText--text{
         font-weight: 400;
@@ -114,5 +113,6 @@
         line-height: 200%;
         width: 80%;
         margin: 0 auto;
+        margin-top: 15px;
     }
 }

@@ -1,10 +1,11 @@
 /* pc design */
 @media screen and (min-width: 900px){
+    .p-works{
+        margin-top: 100px;
+    }
     .p-works__inner{
         width: 80%;
         margin: 0 auto;
-        margin-bottom: 200px;
-        padding-top: 100px;
     }
     .p-works__container{
         margin-top: 170px;
@@ -108,9 +109,11 @@
 
 /* sp design */
 @media screen and (max-width: 899px){
+    .p-works{
+        margin-top: 50px;
+    }
     .p-works__inner{
         margin: 0 auto;
-        margin-bottom: 80px;
         overflow-x: hidden;
     }
     .p-works__container{
