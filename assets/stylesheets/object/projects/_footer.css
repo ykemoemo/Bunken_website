@@ -18,6 +18,9 @@
     .p-footer__titleText--text{
         margin-top: 10px;
     }
+    .p-footer__titleText--title:hover{
+        opacity: 0.6;
+    }
     .p-footer--line{
         border-right: 1px solid white;
         height: 110px;
@@ -68,6 +71,9 @@
         font-weight: 400;
         display: flex;
         justify-content: center;
+    }
+    .p-footer__titleText--title:hover{
+        opacity: 0.6;
     }
     .p-footer__titleText--text{
         font-size: 10px;
