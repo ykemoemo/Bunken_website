@@ -12,8 +12,8 @@
 // Layout
 // ==========================================================================*/
 
-@import 'layout/_l-header.css';
-@import 'layout/_l-footer.css';
+@import 'layout/_header.css';
+@import 'layout/_footer.css';
 
 /*// ==========================================================================
 // Object
@@ -23,24 +23,24 @@
 // Component
 // -----------------------------------------------------------------*/
 
-@import 'object/components/_c-button.css';
-@import 'object/components/_c-form.css';
+@import 'object/components/_button.css';
+@import 'object/components/_form.css';
 
 /*// -----------------------------------------------------------------
 // Project
 // -----------------------------------------------------------------*/
 
-@import 'object/projects/_p-header.css';
-@import 'object/projects/_p-footer.css';
-@import 'object/projects/_p-bottomMenu.css';
-@import 'object/projects/_p-section.css';
-@import 'object/projects/_p-services.css';
-@import 'object/projects/_p-top.css';
-@import 'object/projects/_p-works.css';
-@import 'object/projects/_p-greeting.css';
-@import 'object/projects/_p-company.css';
-@import 'object/projects/_p-recruit.css';
-@import 'object/projects/_p-contact.css';
+@import 'object/projects/_header.css';
+@import 'object/projects/_footer.css';
+@import 'object/projects/_bottomMenu.css';
+@import 'object/projects/_section.css';
+@import 'object/projects/_services.css';
+@import 'object/projects/_top.css';
+@import 'object/projects/_works.css';
+@import 'object/projects/_greeting.css';
+@import 'object/projects/_company.css';
+@import 'object/projects/_recruit.css';
+@import 'object/projects/_contact.css';
 
 /*// -----------------------------------------------------------------
 // Utility

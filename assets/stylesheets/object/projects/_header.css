@@ -25,7 +25,7 @@
   .p-header__button{
     display: none;
   }
-  .p-header__navList__inner{
+  .p-header__navList--items{
     display: flex;
     align-items: center;
   }
