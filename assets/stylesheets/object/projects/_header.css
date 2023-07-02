@@ -32,7 +32,7 @@
   .p-header__navList--item{
     margin-right: 20px;
   }
-  .p-header__navList--item:last-child{
+  .p-header__navList--items > li:last-child > .p-header__navList--item{
     background-color: #A6BD66;
     border: none;
     color: white;
@@ -157,16 +157,16 @@
     display: block;
     left: 30%;
   }
-  .p-header__navList--item{
+  .p-header__navList--items > li{
     font-size: 14px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     position: relative;
   }
-  .p-header__navList--item a{
+  .p-header__navList--items > li > a{
     display: block;
     padding: 16px 10%;
   }
-  .p-header__navList--item a:hover{
+  .p-header__navList--item:hover{
     background-color: rgba(232, 232, 232, 0.5);
   }
   .p-header__navList--item::after{

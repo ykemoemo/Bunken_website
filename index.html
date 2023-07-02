@@ -26,7 +26,7 @@
     <div class="l-header">
       <div class="l-header__inner">
         <div class="p-header" id="js-header">
-          <a href="#top"><img class="p-header__logo fadeIn_delay_1000ms" src="assets/images/bunken_rogo.png" alt="文建株式会社ロゴ"></a>
+          <a href="#top"><img class="p-header__logo fadeIn" src="assets/images/bunken_rogo.png" alt="文建株式会社ロゴ"></a>
           <div class="p-header__nav">
             <div class="p-header__button" id="js-hamburger">
               <div class="p-header__button--hamburger">
@@ -38,13 +38,13 @@
             </div>
             <nav class="p-header__navList" id="js-nav">
               <ul class="p-header__navList--items">
-                <li class="p-header__navList--item"><a href="#top" id="js-nav__top">TOP</a></li>
-                <li class="p-header__navList--item"><a href="#services" id="js-nav__services">事業内容</a></li>
-                <li class="p-header__navList--item"><a href="#works" id="js-nav__works">施工事例</a></li>
-                <li class="p-header__navList--item"><a href="#greeting" id="js-nav__greeting">代表挨拶</a></li>
-                <li class="p-header__navList--item"><a href="#company" id="js-nav__company">会社情報</a></li>
-                <li class="p-header__navList--item"><a href="#recruit" id="js-nav__recruit">採用情報</a></li>
-                <li class="p-header__navList--item"><a href="#contact" id="js-nav__contact">お問い合わせ</a></li>
+                <li><a class="p-header__navList--item" href="#top" id="js-nav__top">TOP</a></li>
+                <li><a class="p-header__navList--item" href="#services" id="js-nav__services">事業内容</a></li>
+                <li><a class="p-header__navList--item" href="#works" id="js-nav__works">施工事例</a></li>
+                <li><a class="p-header__navList--item" href="#greeting" id="js-nav__greeting">代表挨拶</a></li>
+                <li><a class="p-header__navList--item" href="#company" id="js-nav__company">会社情報</a></li>
+                <li><a class="p-header__navList--item" href="#recruit" id="js-nav__recruit">採用情報</a></li>
+                <li><a class="p-header__navList--item" href="#contact" id="js-nav__contact">お問い合わせ</a></li>
               </ul>
             </nav>
           </div>
@@ -368,7 +368,7 @@
                   <span class="p-section__title--top"><span>C</span>ONTACT</span>
                   <span class="p-section__title--sub">お問い合わせ</span>
                 </h2>
-                <form class="c-form" method="post" action="mail.php">
+                <form class="c-form fadeIn" method="post" action="mail.php">
                   <div class="c-form__label fadeIn">
                     <label for="name">お名前</label><br>
                     <input type="text" id="name" name="name" required>
@@ -381,7 +381,7 @@
                     <label for="message">お問い合わせ内容</label><br>
                     <textarea id="message" name="message" required></textarea>
                   </div>
-                  <input class="c-form__submit fadeIn" type="submit" value="送信">
+                  <input class="c-form__submit" type="submit" value="送信">
                 </form>
               </div>
             </div>

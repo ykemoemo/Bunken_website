@@ -38,6 +38,7 @@
     }
     .c-form__submit:hover{
         cursor: pointer;
+        opacity: 0.5;
     }
 }
 
@@ -81,5 +82,6 @@
     }
     .c-form__submit:hover{
         cursor: pointer;
+        opacity: 0.5;
     }
 }
